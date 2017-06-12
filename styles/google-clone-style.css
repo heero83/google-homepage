@@ -1,0 +1,252 @@
+body {
+  color:#222;
+}
+
+
+.main {
+  width: 100%;
+  height:100%;
+  top:0;
+  display: block;
+  background: #fff;
+  position:absolute;
+}
+
+.header {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  text-align:right;
+  display:inline-block;
+  height:30px;
+  position: absolute;
+  right:0;
+  width:100%;
+  top:20px;
+}
+
+/* navigation bar */
+.nav {
+  position:relative;
+  float:right;
+  padding: 0 30px;
+  align-items: center;
+  margin-right:15px;
+}
+
+.nav ul li {
+  float:left;
+  padding: 3px 0 0 15px;
+}
+
+
+/* gmail and images links */
+.topLinks {
+  color:#222;
+}
+
+.apps {
+  margin:0 1px;
+}
+
+.submitContainer {
+  width:100%;
+  text-align: center;
+  margin:1px 1px;
+
+}
+
+
+/* submit button */
+
+.myButton {
+  float:left;
+  border: 1px solid #4285f4;
+  background-color: #4285f4;
+  font-weight:bold;
+  color:white;
+  width:71px;
+  height:30px;
+  border-radius: 2px;
+}
+
+a {
+  color:#222;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#609;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.topLinks a {
+  padding:  0 4px;
+
+}
+
+#logoWrapper {
+  padding-top: 201px;
+
+}
+
+#webLogo {
+  height:92px;
+  width:272px;
+  background-size: 272px 92px;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+}
+
+center {
+  display:block;
+
+}
+
+.searchBox, .input {
+  width: 530px;
+  height:44px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px #c6c6c6;
+
+}
+
+.input {
+  box-shadow: 1px 1px 5px #c6c6c6;
+}
+
+
+.input:hover, .searchBox:hover {
+box-shadow: 3px 3px 5px #c6c6c6;
+}
+
+
+
+.input:focus {
+  outline:none;
+
+}
+
+.search  {
+  height: 34px;
+  width: 95%;
+  display:inline-block;
+  margin: 0 auto;
+  border: none;
+  font-size: 16px;
+  font-family: arial, helvetica, sans-serif;
+  background: transparent;
+  color:#222;
+  padding-left:16px;
+
+}
+
+.search:focus {
+  outline: 0;
+}
+
+#mic {
+  position: relative;
+  display:inline-block;
+  float:right;
+  width: 24px;
+  height: 28px;
+  top: -28px;
+  right: 8px;
+
+}
+
+.buttons {
+  width:400px;
+  height:58px;
+  margin: 0 auto;
+  display:inline-block;
+  position:relative;
+  float:right;
+  text-align:center;
+}
+
+
+#leftButton, #rightButton {
+  position: relative;
+  float:left;
+
+}
+
+
+.leftGoogle, .rightGoogle {
+  border:0.25px #c6c6c6;
+  background-color:#f2f2f2;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color:gray;
+  font-family: arial, helvetica, sans-serif;
+  font-size:13px;
+  font-weight:bold;
+  margin: 11px 4px;
+  border-radius:2px;
+  text-align: center;
+  padding:0 16px;
+
+}
+
+.leftGoogle{
+  width:126px;
+  height:36px;
+
+}
+
+.rightGoogle{
+  width:144px;
+  height:36px;
+
+}
+
+.leftGoogle:hover, .rightGoogle:hover {
+  box-shadow: 1px 1px 1px #c6c6c6;
+  color:#222;
+}
+
+.footer {
+  font-size: 13px;
+  font-family: arial, helvetica, sans-serif;
+  display:inline-block;
+  position: absolute;
+  border-top: 1px solid #e4e4e4;
+  background:#f2f2f2;
+  width:100%;
+  height:40px;
+  bottom:0;
+
+}
+
+.leftFooter {
+	display:block;
+	float:left;
+	width:48%;
+}
+
+.rightFooter {
+	display: block;
+	text-align:right;
+}
+
+
+.leftFooter ul li{
+	padding-left:30px;
+}
+.rightFooter ul li{
+	padding-right:30px;
+}
+
+
+.leftFooter ul li, .rightFooter ul li{
+	display:inline-block;
+	padding-top:15px;
+	padding-bottom:10px;
+	color:#666;
+}
