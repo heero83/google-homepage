@@ -46,6 +46,7 @@ body {
 
 .apps {
   margin:0 1px;
+  opacity:.55;
 }
 
 .submitContainer {
@@ -177,7 +178,6 @@ box-shadow: 3px 3px 5px #c6c6c6;
   float:left;
 
 }
-
 
 .leftGoogle, .rightGoogle {
   border:0.25px #c6c6c6;
